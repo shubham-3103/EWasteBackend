@@ -7,7 +7,7 @@
     { "src": "/(.*)", "dest": "/index.js" }
   ],
   "env": {
-    "MONGODB_URI": "@your-mongodb-uri",
+    "MONGODB_URI": process.env.MONGODB_URI,
     "PORT": 5000
   }
 }
